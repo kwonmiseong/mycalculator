@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+#define DEFAULT_STACK_SIZE 100
+
 typedef int Item;
 typedef struct stack {
 Item * contents;
